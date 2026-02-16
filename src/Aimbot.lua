@@ -109,13 +109,13 @@ getgenv().ExunysDeveloperAimbot = {
 		LockMode = 1, -- 1 = CFrame; 2 = mousemoverel
 		LockPart = "Head", -- Body part to lock on
 
-		TriggerKey = Enum.UserInputType.MouseButton2,
+		TriggerKey = Enum.Keycode.Alt,
 		Toggle = false
 	},
 
 	FOVSettings = {
 		Enabled = true,
-		Visible = true,
+		Visible = false,
 
 		Radius = 90,
 		NumSides = 60,
